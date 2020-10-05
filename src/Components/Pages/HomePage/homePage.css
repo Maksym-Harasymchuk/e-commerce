@@ -1,0 +1,13 @@
+.homePage {
+    text-align: center;
+    margin: 100px auto;
+}
+
+.yours-custom-class {
+    width: 100%;
+}
+
+.my {
+    max-width: 1024px;
+    margin: 0 auto;
+}

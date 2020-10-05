@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 100%;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-bottom: 1px solid #fefefe;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+.left_side{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+    .left_side{
+        display: flex;
+        justify-content: space-around;
+        flex-basis: 50%;
+    }
+}
+
+.navLink.active{
+    color: #0b204c;
+}
+
+.navLink:active{
+    color: black;
+}
+
+.navLink{
+    text-decoration: none;
+}
